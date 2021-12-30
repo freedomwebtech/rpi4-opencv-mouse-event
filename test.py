@@ -24,9 +24,7 @@ def line_drawing(event,x,y,flags,param):
     elif event==cv2.EVENT_LBUTTONUP:
         drawing=False
         cv2.line(img,(point1,point2),(x,y),color=(255,255,255),thickness=3)
-        pt1_x,pt1_y=x,y
-        print(x,y)
-
+       
 
 
 
